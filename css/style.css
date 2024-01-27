@@ -6,12 +6,14 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Libre Franklin", sans-serif;
 }
+
 .navigation {
   background-color: #fff;
   font-size: 1rem;
@@ -24,6 +26,9 @@ body {
 
 .logo {
   width: 15rem;
+  height: auto;
+  margin-top: 2.5rem;
+  
 }
 
 .navigation .logo img {
@@ -103,9 +108,16 @@ body {
   gap: 9.6rem;
   align-items: center;
 }
+
 .hero-img {
   width: 100%;
   border-radius: 3rem;
+}
+.text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .text-box h1 {
   font-size: 7.5rem;
@@ -287,7 +299,6 @@ body {
   margin-bottom: 1.5rem;
 }
 .section-about {
-  height: 70vh;
   padding: 10rem 10rem;
   margin-bottom: 7rem;
 }
@@ -335,7 +346,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.logo {
+.logo-2 {
   width: 15rem;
   margin-bottom: 4rem;
 }
